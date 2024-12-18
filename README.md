@@ -29,6 +29,8 @@ variable region {
 }
 ```
 
+
+
 ## Inside "terraform.tfvars"
 ## NOTE!!! you will have to specified what region is best for you.
 
