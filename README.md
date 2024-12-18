@@ -27,8 +27,9 @@ variable project_name {
   project_name = "10weeksofcloudops"
 ```
 
-## Inside "provider.tf"
-## NOTE!! you will have to specified what region is best for you.
+## Inside "provider.tf" ## NOTE!! you will have to specified what region is best for you.
+
+
 ```sh
  terraform {
   required_providers {
