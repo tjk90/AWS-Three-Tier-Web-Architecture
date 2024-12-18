@@ -14,7 +14,11 @@
 ## VSCode 
 - Open VSCode and install Terraform extensions
 - Create DEMO folder and inside of that folder create root folder and modules folder
-- Go inside root folder and create a file "main.tf" 
+- Go inside root folder and create a file "main.tf"
+```sh
+aaa
+```
+  
 ### Create S3 Backend Bucket
 Create an S3 bucket to store the .tfstate file in the remote backend
 
