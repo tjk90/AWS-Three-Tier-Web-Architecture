@@ -50,9 +50,10 @@ variable region {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = var.region 
 }
 ```
+## Note!!## use the variable by typing "V" on region =
 
 ### Create S3 Backend Bucket
 Create an S3 bucket to store the .tfstate file in the remote backend
