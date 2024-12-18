@@ -57,6 +57,18 @@ provider "aws" {
 ```
 **Note!!** use the variable by typing "var" for variable after "region = var" and choose "var_region" 
 
+## Inside "backend.tf"
+```sh
+terraform {
+  backend "s3" {
+    bucket = "tfstate-piyush-101"
+    key    = "backend/10weeksofcloudops-demo.tfstate"
+    region = "us-east-1"
+    dynamodb_table = "remote-backend"
+  }
+}
+```
+
 ### Create S3 Backend Bucket
 Create an S3 bucket to store the .tfstate file in the remote backend
 
