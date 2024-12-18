@@ -14,7 +14,7 @@
 ## VSCode 
 - Open VSCode and install Terraform extensions
 - Create DEMO folder and inside of that folder create root folder and modules folder
-- Go inside root folder and create a files "main.tf", "terraform.tfvars" and  "variables"
+- Go inside root folder and create a files "main.tf", "terraform.tfvars", "variables.tf" and "provider.tf"
 ## Inside "variables.tf"
 ```sh
 variable project_name {
@@ -25,6 +25,23 @@ variable project_name {
 ## Inside "terraform.tfvars"
 ```sh
   project_name = "10weeksofcloudops"
+```
+
+## Inside "provider.tf"
+## NOTE!! you will have to specified what region is best for you.
+```sh
+ terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "4.67.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
 ```
 
 ### Create S3 Backend Bucket
