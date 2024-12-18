@@ -23,6 +23,10 @@
 variable project_name {
   description = "Tier 2 Web Deployment" 
 }
+
+variable region {
+    
+}
 ```
 
 ## Inside "terraform.tfvars"
