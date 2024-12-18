@@ -6,11 +6,15 @@
 ##  Architecture
 
 
-
-## Installation of Terraform
+## Install VSCode
+## Install Terraform
 
 **Note**: Follow the blog for the step-by-step instructions to build this project. [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
+## VSCode 
+- Open VSCode and install Terraform extensions
+- Create DEMO folder and inside of that folder create root folder and modules folder
+- Go inside root folder and create a file "main.tf" 
 ### Create S3 Backend Bucket
 Create an S3 bucket to store the .tfstate file in the remote backend
 
