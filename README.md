@@ -15,6 +15,9 @@
 - Open VSCode and install Terraform extensions
 - Create DEMO folder and inside create root folder and modules folder
 - Go inside root folder and create a files "main.tf", "terraform.tfvars", "variables.tf" and "provider.tf"
+
+## This is for your understanding 
+   The file variable.tf defines variables, while terraform.tfvars assigns values to those variables
 ## Inside "variables.tf"
 ```sh
 variable project_name {
