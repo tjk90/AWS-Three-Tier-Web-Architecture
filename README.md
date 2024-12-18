@@ -23,13 +23,14 @@ variable project_name {
 ```
 
 ## Inside "terraform.tfvars"
+## NOTE!!! you will have to specified what region is best for you.
+
 ```sh
   project_name = "10weeksofcloudops"
+  region = "us-east-1"
 ```
 
 ## Inside "provider.tf" 
-### NOTE!!! you will have to specified what region is best for you.
-
 
 ```sh
  terraform {
