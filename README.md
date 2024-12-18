@@ -21,7 +21,12 @@ variable project_name {
   description = "Tier 2 Web Deployment" 
 }
 ```
-  
+
+## Inside "terraform.tfvars"
+```sh
+  project_name = "10weeksofcloudops"
+```
+
 ### Create S3 Backend Bucket
 Create an S3 bucket to store the .tfstate file in the remote backend
 
