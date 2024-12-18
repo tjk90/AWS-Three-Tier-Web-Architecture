@@ -28,7 +28,7 @@ variable project_name {
 ```
 
 ## Inside "provider.tf" 
-### NOTE!! you will have to specified what region is best for you.
+### NOTE!!! you will have to specified what region is best for you.
 
 
 ```sh
