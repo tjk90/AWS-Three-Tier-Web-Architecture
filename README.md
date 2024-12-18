@@ -14,9 +14,12 @@
 ## VSCode 
 - Open VSCode and install Terraform extensions
 - Create DEMO folder and inside of that folder create root folder and modules folder
-- Go inside root folder and create a file "main.tf"
+- Go inside root folder and create a files "main.tf", "terraform.tfvars", "variables"
+## Inside "variables.tf"
 ```sh
-aaa
+variable project_name {
+  description = "Tier 2 Web Deployment" 
+}
 ```
   
 ### Create S3 Backend Bucket
